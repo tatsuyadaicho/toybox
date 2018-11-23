@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "main": "src/index.jsx",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "jest",
+    "lint": "tslint",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.3.1",
+    "postcss-modules": "^1.4.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.10",
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "enzyme": "^3.7.0",
+    "jest": "^23.6.0",
+    "parcel-bundler": "^1.10.3",
+    "prettier": "^1.15.2",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.6"
+  }
+}
